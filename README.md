@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 📊 Advanced Data Analytics Dashboard (React.js)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive and customizable **financial analytics dashboard** built using **React.js**, designed to provide advanced data insights beyond basic charting.  
+The dashboard visualizes key financial indicators such as **Moving Averages, Volatility, and RSI (Relative Strength Index)** on randomly generated or uploaded datasets.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+### 🔹 Core Analytics
+- **Moving Averages (SMA / EMA)**
+- **Volatility Analysis**
+- **Relative Strength Index (RSI)**
+- Real-time recalculation based on selected data range
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🔹 Interactive Dashboard
+- Dynamic charts with responsive UI
+- Metric selection toggle (enable/disable indicators)
+- Customizable time window and indicator parameters
+- Clean and professional dashboard layout
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🔹 User Customization
+- Choose which analytics metrics to display
+- Adjust moving average periods
+- Switch between datasets
+- Reset or update visualizations instantly
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎯 Project Goal
 
-### `npm run build`
+> **To enhance the platform with professional-level data analytics**, providing deeper insights and decision-making tools rather than simple data visualization.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project focuses on **analytical intelligence**, making it ideal for:
+- Financial analysis
+- Data science visualization
+- Analytics-driven applications
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tech Stack
 
-### `npm run eject`
+| Technology | Usage |
+|----------|------|
+| **React.js** | Frontend framework |
+| **JavaScript (ES6+)** | Business logic |
+| **Chart.js / Recharts / D3.js** | Data visualization |
+| **CSS / Tailwind / Bootstrap** | UI styling |
+| **Math.js / Custom Utils** | Financial calculations |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📐 Financial Indicators Explained
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 📈 Moving Average
+- Smooths price data to identify trends
+- Supports Simple Moving Average (SMA)
+- Customizable period length
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 📉 Volatility
+- Measures price fluctuations over time
+- Helps assess market risk
 
-## Learn More
+### 📊 RSI (Relative Strength Index)
+- Momentum oscillator (0–100)
+- Identifies overbought (>70) and oversold (<30) conditions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
